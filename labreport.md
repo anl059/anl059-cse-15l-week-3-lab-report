@@ -1,9 +1,9 @@
 # Part 1
-* Used the template Web Server code from week 2 lab and made some adjustments to fit the functionality for StringServer
+* used the template Web Server code from week 2 lab and made some adjustments to fit the functionality for StringServer
 * StringServer code:
 <img width="572" alt="Screenshot_20230129_023559" src="https://user-images.githubusercontent.com/122491210/215359876-64da7444-ec38-441d-8f24-e8464a8dc450.png">
 
-* Examples of using `/add-message`:
+* examples of using `/add-message`:
 1) StringServer after using the query '/add-message?s=Hello'
 <img width="306" alt="Screenshot_20230129_023445" src="https://user-images.githubusercontent.com/122491210/215360089-0f5e501d-146e-4cad-8ed2-439784ce9a4d.png">
 
@@ -36,7 +36,7 @@ assertArrayEquals(new int[]{ 3 }, input1);
 * the buggy code:
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/122491210/215360932-7a54c973-2c4f-44b0-9264-084147038097.png">
 
-* the issue is that the loop condition `arr.length` made it so that each element in the array was swapped twice instead of just once
+* the bug is that the loop condition `arr.length` made it so that each element in the array was swapped twice instead of just once
 * to fix this issue, change the loop condition to `arr.length/2` so that each element in the array is swapped only once
 * the fixed code:
 <img width="296" alt="image" src="https://user-images.githubusercontent.com/122491210/215360972-5c1aa374-fdca-42db-9c67-41793133efb7.png">
