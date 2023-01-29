@@ -5,14 +5,14 @@
 <img width="572" alt="Screenshot_20230129_023559" src="https://user-images.githubusercontent.com/122491210/215359876-64da7444-ec38-441d-8f24-e8464a8dc450.png">
 
 * examples of using `/add-message`:
-1) StringServer after using the query '/add-message?s=Hello'
+1) StringServer after using the query `/add-message?s=Hello`
 
 <img width="306" alt="Screenshot_20230129_023445" src="https://user-images.githubusercontent.com/122491210/215360089-0f5e501d-146e-4cad-8ed2-439784ce9a4d.png">
 
 * calls the `handleRequest` method with the url as the parameter
 * changes the value of `output` from `""` to `Hello`
 
-2) StringServer after using the query '/add-message?s=How are you'
+2) StringServer after using the query  `/add-message?s=How are you`
 
 <img width="373" alt="Screenshot_20230129_023502" src="https://user-images.githubusercontent.com/122491210/215360118-cfd37591-bc84-4cf3-838a-1616b29053a8.png">
 
